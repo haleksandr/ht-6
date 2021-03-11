@@ -1,32 +1,4 @@
-let arrEn = [
-  'a',
-  'b',
-  'c',
-  'd',
-  'e',
-  'f',
-  'g',
-  'h',
-  'i',
-  'j',
-  'k',
-  'l',
-  'm',
-  'n',
-  'o',
-  'p',
-  'q',
-  'r',
-  's',
-  't',
-  'u',
-  'v',
-  'w',
-  'x',
-  'y',
-  'z',
-];
-let lettersEn = [{ е: 'e' }, { р: 'p' }, { о: 'o' }];
+let arrEn = ['а', 'с', 'е', 'к', 'п', 'о', 'р', 'х', 'у'];
 let str = 'дерево';
 let arr = str.split('');
 let result = [];
@@ -38,4 +10,5 @@ for (let i = 0; i < arrEn.length; i++) {
     }
   }
 }
+
 console.log(result);
